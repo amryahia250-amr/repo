@@ -8,8 +8,8 @@ const TOPICS = [
   {t:"المغناطيسية", d:"المجال المغناطيسي والحث الكهرومغناطيسي."}
 ];
 const CONTACTS = [
-  {label:"واتساب", url:"https://wa.me/"},
-  {label:"يوتيوب", url:"https://youtube.com/"},
+  {label:"واتساب", url:"https://wa.me/qr/BRER4NKYCIRAM1"},
+  {label:"يوتيوب", url:"https://youtube.com/@physics_mr_osama?si=H8Sn35w2FjXft7bE"},
   {label:"فيسبوك", url:"https://facebook.com/"}
 ];
 
