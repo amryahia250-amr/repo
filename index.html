@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="اكتشف عالم الفيزياء">
+<meta name="theme-color" content="#060b19">
+<title>Mr.Osama Ibrahim | اكتشف عالم الفيزياء</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#">Mr.Osama Ibrahim</a>
+  <nav>
+    <a href="#topics">الوحدات</a>
+    <a href="#lab">المعمل</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <canvas id="wave" aria-hidden="true"></canvas>
+    <div class="hero-text">
+      <h1>اكتشف عالم الفيزياء</h1>
+      <p>شرح مبسّط، تجارب تفاعلية، ومسائل محلولة خطوة بخطوة مع مستر أسامة إبراهيم.</p>
+      <a class="btn" href="#topics">ابدأ التعلّم</a>
+    </div>
+  </section>
+
+  <section id="topics" class="block">
+    <h2>الوحدات الدراسية</h2>
+    <div class="grid" id="topicGrid"></div>
+  </section>
+
+  <section id="lab" class="block">
+    <h2>معمل المقذوفات</h2>
+    <p class="lead">غيّر السرعة والزاوية وشاهد المسار والمدى الأفقي.</p>
+    <div class="lab">
+      <canvas id="proj" width="640" height="300"></canvas>
+      <div class="controls">
+        <label>السرعة الابتدائية: <b id="vOut">30</b> م/ث
+          <input id="v" type="range" min="5" max="60" value="30"></label>
+        <label>زاوية الإطلاق: <b id="aOut">45</b>°
+          <input id="a" type="range" min="5" max="85" value="45"></label>
+        <p class="result">المدى الأفقي: <b id="range">0</b> م &nbsp; أقصى ارتفاع: <b id="height">0</b> م</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="block">
+    <h2>تواصل معنا</h2>
+    <p class="lead">عدّل بيانات التواصل في ملف <code>script.js</code>.</p>
+    <div class="contact" id="contactLinks"></div>
+  </section>
+</main>
+
+<footer>© <span id="yr"></span> Mr.Osama Ibrahim</footer>
+<script src="script.js"></script>
+</body>
+</html>
